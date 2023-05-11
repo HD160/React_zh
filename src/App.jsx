@@ -48,7 +48,7 @@ function App() {
                         .filter((t) => (filter ? t.active : true))
                         .map((img, index) => {
                             return (
-                                <div key={index} className="image-container" >
+                                <div key={index} className="picturee-container" >
                                     <Image
                                         src={img.pic}
                                         title={img.title}
